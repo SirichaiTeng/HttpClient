@@ -1,9 +1,8 @@
 ﻿using UseWebApp.Models.Entities;
 
-namespace UseWebApp.IServices
+namespace UseWebApp.IServices;
+
+public interface ISendEmailService
 {
-    public interface ISendEmailService
-    {
-        Task<bool> SendEmail(List<EmployeeSport> employeeSports);
-    }
+    Task<bool> SendEmail(List<EmployeeSport> employeeSports);
 }

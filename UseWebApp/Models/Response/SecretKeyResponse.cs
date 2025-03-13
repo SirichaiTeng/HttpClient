@@ -1,10 +1,9 @@
-﻿namespace UseWebApp.Models.Response
-{
-    public class SecretKeyResponse
-    {
-        public string? Data { get; set; }
+﻿namespace UseWebApp.Models.Response;
 
-        public string? Message { get; set; }
-        public bool? Success { get; set; }
-    }
+public class SecretKeyResponse
+{
+    public string? Data { get; set; }
+
+    public string? Message { get; set; }
+    public bool? Success { get; set; }
 }

@@ -1,18 +1,17 @@
-﻿namespace UseWebApp.Tests
+﻿namespace UseWebApp.Tests;
+
+public class ProgramTests
 {
-    public class ProgramTests
+    [Fact]
+    public async Task MaunTestAsync()
     {
-        [Fact]
-        public async Task MaunTestAsync()
-        {
-            // Arrange
-            var args = new[] { "test" };
+        // Arrange
+        var args = new[] { "test" };
 
-            // Act
-            await Program.Main(args);
+        // Act
+        await Program.Main(args);
 
-            // Assert
-            Assert.Equal(0,Environment.ExitCode);
-        }
+        // Assert
+        Assert.Equal(0,Environment.ExitCode);
     }
 }

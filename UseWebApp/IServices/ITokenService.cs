@@ -1,8 +1,7 @@
-﻿namespace UseWebApp.IServices
+﻿namespace UseWebApp.IServices;
+
+public interface ITokenService
 {
-    public interface ITokenService
-    {
-        Task<string> GetToken();
-        Task<string?> GetKey();
-    }
+    Task<string> GetToken();
+    Task<string?> GetKey();
 }

@@ -44,8 +44,8 @@ public class TokenService : ITokenService
     public async Task<string?> GetKey()
     {
         string key = "";
-        var clientId = _configuration.GetSection("Token:clientId").Value ?? "";
-        var systemname = _configuration.GetSection("Token:secretName").Value ?? "";
+        var clientId = _configuration["Token:clientId"] ?? "";
+        var systemname = _configuration["Token:secretName"] ?? "";
 
         var request =new HttpRequestMessage(HttpMethod.Get, _secretKeyHttpClient.BaseAddress);  // GetMethod
         request.Headers.Add("ClientId", clientId);

@@ -27,10 +27,10 @@ public class TokenServiceTests
         var mockSecretName = new Mock<IConfigurationSection>();
         mockSecretName.Setup(config => config.Key).Returns("secretName");
         mockSecretName.Setup(config => config.Value).Returns("DevJaaaa");
-        
+
         var mockSettings = new Mock<IConfigurationSection>();
         mockSettings.Setup(children => children.GetChildren()).Returns(new List<IConfigurationSection> { mockClientId.Object, mockSecretName.Object });
-        
+
         var mockConfigure = new Mock<IConfiguration>();
         mockConfigure.Setup(config => config.GetSection("Token")).Returns(mockSettings.Object);
 
@@ -59,5 +59,49 @@ public class TokenServiceTests
 
         // Assert
         Assert.Equal(expectedToken, result);
+    }
+
+    [Fact]
+    public async Task GeyKey_ShouldReturnKey()
+    {
+        // Arrange
+        var mockResponse = new SecretKeyResponse
+        {
+            Data = "1234",
+            Message = "",
+            Success = true,
+        };
+        var mockConfig = new Mock<IConfiguration>();
+        mockConfig.Setup(config => config["Token:clientId"]).Returns("clientId");
+        mockConfig.Setup(config => config["Token:secretName"]).Returns("DEvT");
+
+        var mockHttpMessageHandler = new Mock<HttpMessageHandler>();
+        mockHttpMessageHandler
+            .Protected()
+            .Setup<Task<HttpResponseMessage>>(
+                "SendAsync",
+                ItExpr.IsAny<HttpRequestMessage>(),
+                ItExpr.IsAny<CancellationToken>())
+            .ReturnsAsync(new HttpResponseMessage(HttpStatusCode.OK)
+            {
+                Content = new StringContent(JsonConvert.SerializeObject(mockResponse))
+            });
+
+        var httpclient = new HttpClient(mockHttpMessageHandler.Object)
+        {
+            BaseAddress = new Uri("https://example.com")
+        };
+        var mockIHttpClieny = new Mock<IHttpClientFactory>();
+        mockIHttpClieny.Setup(factory => factory.CreateClient("SecretKey")).Returns(httpclient);
+        var tokenService = new TokenService(mockIHttpClieny.Object, mockConfig.Object);
+
+        // Act
+        var response = await tokenService.GetKey();
+
+        // Assert
+        Assert.Equal(response,"1234");
+
+
+
     }
 }

@@ -1,63 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.347058823529412" branch-rate="0.159090909090909" lines-covered="59" lines-valid="170" branches-covered="7" branches-valid="44" complexity="78" version="0" timestamp="1741910329">
+<coverage line-rate="0.89261744966443" branch-rate="0.642857142857143" lines-covered="133" lines-valid="149" branches-covered="27" branches-valid="42" complexity="67" version="0" timestamp="1741916320">
   <sources />
   <packages>
-    <package name="UseWebApp" line-rate="0.347058823529412" branch-rate="0.159090909090909" complexity="78">
+    <package name="UseWebApp" line-rate="0.89261744966443" branch-rate="0.642857142857143" complexity="67">
       <classes>
-        <class name="UseWebApp.Controllers.WeatherForecastController" filename="D:\HttpClient\UseWebApp\Controllers\WeatherForecastController.cs" line-rate="0" branch-rate="0" complexity="4">
-          <methods>
-            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="16" hits="0" branch="false" />
-                <line number="17" hits="0" branch="false" />
-                <line number="18" hits="0" branch="false" />
-                <line number="19" hits="0" branch="false" />
-              </lines>
-            </method>
-            <method name="Get" signature="()" line-rate="0" branch-rate="0" complexity="2">
-              <lines>
-                <line number="23" hits="0" branch="false" />
-                <line number="24" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="25" hits="0" branch="false" />
-                <line number="26" hits="0" branch="false" />
-                <line number="27" hits="0" branch="false" />
-                <line number="28" hits="0" branch="false" />
-                <line number="29" hits="0" branch="false" />
-                <line number="30" hits="0" branch="false" />
-                <line number="31" hits="0" branch="false" />
-              </lines>
-            </method>
-            <method name=".cctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="9" hits="0" branch="false" />
-                <line number="10" hits="0" branch="false" />
-                <line number="11" hits="0" branch="false" />
-                <line number="12" hits="0" branch="false" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="9" hits="0" branch="false" />
-            <line number="10" hits="0" branch="false" />
-            <line number="11" hits="0" branch="false" />
-            <line number="12" hits="0" branch="false" />
-            <line number="16" hits="0" branch="false" />
-            <line number="17" hits="0" branch="false" />
-            <line number="18" hits="0" branch="false" />
-            <line number="19" hits="0" branch="false" />
-            <line number="23" hits="0" branch="false" />
-            <line number="24" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="25" hits="0" branch="false" />
-            <line number="26" hits="0" branch="false" />
-            <line number="27" hits="0" branch="false" />
-            <line number="28" hits="0" branch="false" />
-            <line number="29" hits="0" branch="false" />
-            <line number="30" hits="0" branch="false" />
-            <line number="31" hits="0" branch="false" />
-          </lines>
-        </class>
-        <class name="UseWebApp.Models.Entities.EmailPayload" filename="D:\HttpClient\UseWebApp\Models\Entities\EmailPayload.cs" line-rate="1" branch-rate="1" complexity="8">
+        <class name="UseWebApp.Models.Entities.EmailPayload" filename="C:\Users\MADORA\Desktop\http\HttpClient\UseWebApp\Models\Entities\EmailPayload.cs" line-rate="1" branch-rate="1" complexity="8">
           <methods>
             <method name="get_From" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -107,7 +55,7 @@
             <line number="8" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="UseWebApp.Models.Entities.EmployeeSport" filename="D:\HttpClient\UseWebApp\Models\Entities\EmployeeSport.cs" line-rate="1" branch-rate="1" complexity="10">
+        <class name="UseWebApp.Models.Entities.EmployeeSport" filename="C:\Users\MADORA\Desktop\http\HttpClient\UseWebApp\Models\Entities\EmployeeSport.cs" line-rate="1" branch-rate="1" complexity="10">
           <methods>
             <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -168,195 +116,195 @@
             <line number="9" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="UseWebApp.Models.Response.ResponseToken" filename="D:\HttpClient\UseWebApp\Models\Response\ResponseToken.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="UseWebApp.Models.Response.ResponseToken" filename="C:\Users\MADORA\Desktop\http\HttpClient\UseWebApp\Models\Response\ResponseToken.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
-            <method name="get_Data" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Data" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="0" branch="false" />
+                <line number="5" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="set_Data" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+            <method name="set_Data" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="0" branch="false" />
+                <line number="5" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="5" hits="0" branch="false" />
+            <line number="5" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="UseWebApp.Models.Response.SecretKeyResponse" filename="D:\HttpClient\UseWebApp\Models\Response\SecretKeyResponse.cs" line-rate="0" branch-rate="1" complexity="6">
+        <class name="UseWebApp.Models.Response.SecretKeyResponse" filename="C:\Users\MADORA\Desktop\http\HttpClient\UseWebApp\Models\Response\SecretKeyResponse.cs" line-rate="1" branch-rate="1" complexity="6">
           <methods>
-            <method name="get_Data" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Data" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="0" branch="false" />
+                <line number="5" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="set_Data" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+            <method name="set_Data" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="0" branch="false" />
+                <line number="5" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="get_Message" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="0" branch="false" />
+                <line number="7" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="set_Message" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+            <method name="set_Message" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="0" branch="false" />
+                <line number="7" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="get_Success" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Success" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="0" branch="false" />
+                <line number="8" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="set_Success" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+            <method name="set_Success" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="0" branch="false" />
+                <line number="8" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="5" hits="0" branch="false" />
-            <line number="7" hits="0" branch="false" />
-            <line number="8" hits="0" branch="false" />
+            <line number="5" hits="1" branch="false" />
+            <line number="7" hits="1" branch="false" />
+            <line number="8" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="UseWebApp.Models.Response.TokenData" filename="D:\HttpClient\UseWebApp\Models\Response\ResponseToken.cs" line-rate="0" branch-rate="1" complexity="4">
+        <class name="UseWebApp.Models.Response.TokenData" filename="C:\Users\MADORA\Desktop\http\HttpClient\UseWebApp\Models\Response\ResponseToken.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
-            <method name="get_Token" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Token" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="0" branch="false" />
+                <line number="10" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="set_Token" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+            <method name="set_Token" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="0" branch="false" />
+                <line number="10" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="get_Exp" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Exp" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="0" branch="false" />
+                <line number="12" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="set_Exp" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+            <method name="set_Exp" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="0" branch="false" />
+                <line number="12" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="10" hits="0" branch="false" />
-            <line number="12" hits="0" branch="false" />
+            <line number="10" hits="1" branch="false" />
+            <line number="12" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="UseWebApp.Program" filename="D:\HttpClient\UseWebApp\Program.cs" line-rate="0" branch-rate="0" complexity="5">
+        <class name="UseWebApp.Program" filename="C:\Users\MADORA\Desktop\http\HttpClient\UseWebApp\Program.cs" line-rate="0.627906976744186" branch-rate="0.2" complexity="5">
           <methods>
-            <method name="CreateApp" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+            <method name="CreateApp" signature="(...)" line-rate="0.764705882352941" branch-rate="0.5" complexity="2">
               <lines>
-                <line number="22" hits="0" branch="false" />
-                <line number="23" hits="0" branch="false" />
-                <line number="24" hits="0" branch="false" />
-                <line number="27" hits="0" branch="false" />
-                <line number="29" hits="0" branch="false" />
-                <line number="30" hits="0" branch="false" />
-                <line number="32" hits="0" branch="false" />
-                <line number="35" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="35" hits="1" branch="true" condition-coverage="50% (1/2)" />
                 <line number="36" hits="0" branch="false" />
                 <line number="37" hits="0" branch="false" />
                 <line number="38" hits="0" branch="false" />
                 <line number="39" hits="0" branch="false" />
-                <line number="41" hits="0" branch="false" />
-                <line number="43" hits="0" branch="false" />
-                <line number="46" hits="0" branch="false" />
-                <line number="47" hits="0" branch="false" />
-                <line number="48" hits="0" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="ConfigureServices" signature="(...)" line-rate="0" branch-rate="0" complexity="1">
+            <method name="ConfigureServices" signature="(...)" line-rate="0.4375" branch-rate="0" complexity="1">
               <lines>
-                <line number="51" hits="0" branch="false" />
-                <line number="52" hits="0" branch="false" />
-                <line number="53" hits="0" branch="false" />
-                <line number="55" hits="0" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
                 <line number="56" hits="0" branch="false" />
                 <line number="57" hits="0" branch="true" condition-coverage="0% (0/2)" />
                 <line number="58" hits="0" branch="false" />
-                <line number="60" hits="0" branch="false" />
+                <line number="60" hits="1" branch="false" />
                 <line number="61" hits="0" branch="false" />
                 <line number="62" hits="0" branch="true" condition-coverage="0% (0/2)" />
                 <line number="63" hits="0" branch="false" />
-                <line number="65" hits="0" branch="false" />
+                <line number="65" hits="1" branch="false" />
                 <line number="66" hits="0" branch="false" />
                 <line number="67" hits="0" branch="true" condition-coverage="0% (0/2)" />
                 <line number="68" hits="0" branch="false" />
-                <line number="69" hits="0" branch="false" />
+                <line number="69" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
+            <method name="MoveNext" signature="()" line-rate="0.7" branch-rate="0.5" complexity="2">
               <lines>
-                <line number="10" hits="0" branch="false" />
-                <line number="11" hits="0" branch="false" />
-                <line number="12" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="10" hits="1" branch="false" />
+                <line number="11" hits="1" branch="false" />
+                <line number="12" hits="1" branch="true" condition-coverage="50% (1/2)" />
                 <line number="13" hits="0" branch="false" />
                 <line number="14" hits="0" branch="false" />
                 <line number="15" hits="0" branch="false" />
-                <line number="17" hits="0" branch="false" />
-                <line number="18" hits="0" branch="false" />
-                <line number="19" hits="0" branch="false" />
-                <line number="20" hits="0" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="10" hits="0" branch="false" />
-            <line number="11" hits="0" branch="false" />
-            <line number="12" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="10" hits="1" branch="false" />
+            <line number="11" hits="1" branch="false" />
+            <line number="12" hits="1" branch="true" condition-coverage="50% (1/2)" />
             <line number="13" hits="0" branch="false" />
             <line number="14" hits="0" branch="false" />
             <line number="15" hits="0" branch="false" />
-            <line number="17" hits="0" branch="false" />
-            <line number="18" hits="0" branch="false" />
-            <line number="19" hits="0" branch="false" />
-            <line number="20" hits="0" branch="false" />
-            <line number="22" hits="0" branch="false" />
-            <line number="23" hits="0" branch="false" />
-            <line number="24" hits="0" branch="false" />
-            <line number="27" hits="0" branch="false" />
-            <line number="29" hits="0" branch="false" />
-            <line number="30" hits="0" branch="false" />
-            <line number="32" hits="0" branch="false" />
-            <line number="35" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="35" hits="1" branch="true" condition-coverage="50% (1/2)" />
             <line number="36" hits="0" branch="false" />
             <line number="37" hits="0" branch="false" />
             <line number="38" hits="0" branch="false" />
             <line number="39" hits="0" branch="false" />
-            <line number="41" hits="0" branch="false" />
-            <line number="43" hits="0" branch="false" />
-            <line number="46" hits="0" branch="false" />
-            <line number="47" hits="0" branch="false" />
-            <line number="48" hits="0" branch="false" />
-            <line number="51" hits="0" branch="false" />
-            <line number="52" hits="0" branch="false" />
-            <line number="53" hits="0" branch="false" />
-            <line number="55" hits="0" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
             <line number="56" hits="0" branch="false" />
             <line number="57" hits="0" branch="true" condition-coverage="0% (0/2)" />
             <line number="58" hits="0" branch="false" />
-            <line number="60" hits="0" branch="false" />
+            <line number="60" hits="1" branch="false" />
             <line number="61" hits="0" branch="false" />
             <line number="62" hits="0" branch="true" condition-coverage="0% (0/2)" />
             <line number="63" hits="0" branch="false" />
-            <line number="65" hits="0" branch="false" />
+            <line number="65" hits="1" branch="false" />
             <line number="66" hits="0" branch="false" />
             <line number="67" hits="0" branch="true" condition-coverage="0% (0/2)" />
             <line number="68" hits="0" branch="false" />
-            <line number="69" hits="0" branch="false" />
+            <line number="69" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="UseWebApp.Services.SendEmailService" filename="D:\HttpClient\UseWebApp\Services\SendEmailService.cs" line-rate="1" branch-rate="0.875" complexity="9">
+        <class name="UseWebApp.Services.SendEmailService" filename="C:\Users\MADORA\Desktop\http\HttpClient\UseWebApp\Services\SendEmailService.cs" line-rate="1" branch-rate="0.875" complexity="9">
           <methods>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -470,149 +418,104 @@
             <line number="69" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="UseWebApp.Services.TokenService" filename="D:\HttpClient\UseWebApp\Services\TokenService.cs" line-rate="0" branch-rate="0" complexity="23">
+        <class name="UseWebApp.Services.TokenService" filename="C:\Users\MADORA\Desktop\http\HttpClient\UseWebApp\Services\TokenService.cs" line-rate="1" branch-rate="0.75" complexity="23">
           <methods>
-            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="0" branch="false" />
-                <line number="14" hits="0" branch="false" />
-                <line number="15" hits="0" branch="false" />
-                <line number="16" hits="0" branch="false" />
-                <line number="17" hits="0" branch="false" />
-                <line number="18" hits="0" branch="false" />
+                <line number="13" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="10">
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="0.6" complexity="10">
               <lines>
-                <line number="45" hits="0" branch="false" />
-                <line number="46" hits="0" branch="false" />
-                <line number="47" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="48" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="50" hits="0" branch="false" />
-                <line number="51" hits="0" branch="false" />
-                <line number="52" hits="0" branch="false" />
-                <line number="53" hits="0" branch="false" />
-                <line number="54" hits="0" branch="false" />
-                <line number="55" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="56" hits="0" branch="false" />
-                <line number="57" hits="0" branch="false" />
-                <line number="58" hits="0" branch="false" />
-                <line number="59" hits="0" branch="true" condition-coverage="0% (0/4)" />
-                <line number="60" hits="0" branch="false" />
-                <line number="61" hits="0" branch="false" />
-                <line number="62" hits="0" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="48" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="55" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="56" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="true" condition-coverage="50% (2/4)" />
+                <line number="60" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="62" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="12">
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="0.857142857142857" complexity="12">
               <lines>
-                <line number="21" hits="0" branch="false" />
-                <line number="22" hits="0" branch="false" />
-                <line number="23" hits="0" branch="true" condition-coverage="0% (0/6)" />
-                <line number="24" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="25" hits="0" branch="false" />
-                <line number="30" hits="0" branch="false" />
-                <line number="31" hits="0" branch="false" />
-                <line number="32" hits="0" branch="false" />
-                <line number="33" hits="0" branch="false" />
-                <line number="34" hits="0" branch="false" />
-                <line number="35" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="36" hits="0" branch="false" />
-                <line number="37" hits="0" branch="false" />
-                <line number="38" hits="0" branch="false" />
-                <line number="39" hits="0" branch="true" condition-coverage="0% (0/4)" />
-                <line number="40" hits="0" branch="false" />
-                <line number="41" hits="0" branch="false" />
-                <line number="42" hits="0" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="true" condition-coverage="100% (6/6)" />
+                <line number="24" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="25" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="true" condition-coverage="50% (2/4)" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="0" branch="false" />
-            <line number="14" hits="0" branch="false" />
-            <line number="15" hits="0" branch="false" />
-            <line number="16" hits="0" branch="false" />
-            <line number="17" hits="0" branch="false" />
-            <line number="18" hits="0" branch="false" />
-            <line number="21" hits="0" branch="false" />
-            <line number="22" hits="0" branch="false" />
-            <line number="23" hits="0" branch="true" condition-coverage="0% (0/6)" />
-            <line number="24" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="25" hits="0" branch="false" />
-            <line number="30" hits="0" branch="false" />
-            <line number="31" hits="0" branch="false" />
-            <line number="32" hits="0" branch="false" />
-            <line number="33" hits="0" branch="false" />
-            <line number="34" hits="0" branch="false" />
-            <line number="35" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="36" hits="0" branch="false" />
-            <line number="37" hits="0" branch="false" />
-            <line number="38" hits="0" branch="false" />
-            <line number="39" hits="0" branch="true" condition-coverage="0% (0/4)" />
-            <line number="40" hits="0" branch="false" />
-            <line number="41" hits="0" branch="false" />
-            <line number="42" hits="0" branch="false" />
-            <line number="45" hits="0" branch="false" />
-            <line number="46" hits="0" branch="false" />
-            <line number="47" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="48" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="50" hits="0" branch="false" />
-            <line number="51" hits="0" branch="false" />
-            <line number="52" hits="0" branch="false" />
-            <line number="53" hits="0" branch="false" />
-            <line number="54" hits="0" branch="false" />
-            <line number="55" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="56" hits="0" branch="false" />
-            <line number="57" hits="0" branch="false" />
-            <line number="58" hits="0" branch="false" />
-            <line number="59" hits="0" branch="true" condition-coverage="0% (0/4)" />
-            <line number="60" hits="0" branch="false" />
-            <line number="61" hits="0" branch="false" />
-            <line number="62" hits="0" branch="false" />
-          </lines>
-        </class>
-        <class name="UseWebApp.WeatherForecast" filename="D:\HttpClient\UseWebApp\WeatherForecast.cs" line-rate="0" branch-rate="1" complexity="7">
-          <methods>
-            <method name="get_Date" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="5" hits="0" branch="false" />
-              </lines>
-            </method>
-            <method name="set_Date" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="5" hits="0" branch="false" />
-              </lines>
-            </method>
-            <method name="get_TemperatureC" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="7" hits="0" branch="false" />
-              </lines>
-            </method>
-            <method name="set_TemperatureC" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="7" hits="0" branch="false" />
-              </lines>
-            </method>
-            <method name="get_TemperatureF" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="9" hits="0" branch="false" />
-              </lines>
-            </method>
-            <method name="get_Summary" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="11" hits="0" branch="false" />
-              </lines>
-            </method>
-            <method name="set_Summary" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="11" hits="0" branch="false" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="5" hits="0" branch="false" />
-            <line number="7" hits="0" branch="false" />
-            <line number="9" hits="0" branch="false" />
-            <line number="11" hits="0" branch="false" />
+            <line number="13" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="true" condition-coverage="100% (6/6)" />
+            <line number="24" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="25" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="true" condition-coverage="50% (2/4)" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="48" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="55" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="56" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="true" condition-coverage="50% (2/4)" />
+            <line number="60" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
           </lines>
         </class>
       </classes>

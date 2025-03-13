@@ -497,11 +497,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HttpClient\\UseWebApp\\UseWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\MADORA\\Desktop\\http\\HttpClient\\UseWebApp\\UseWebApp.csproj",
       "projectName": "UseWebApp",
-      "projectPath": "D:\\HttpClient\\UseWebApp\\UseWebApp.csproj",
+      "projectPath": "C:\\Users\\MADORA\\Desktop\\http\\HttpClient\\UseWebApp\\UseWebApp.csproj",
       "packagesPath": "C:\\Users\\MADORA\\.nuget\\packages\\",
-      "outputPath": "D:\\HttpClient\\UseWebApp\\obj\\",
+      "outputPath": "C:\\Users\\MADORA\\Desktop\\http\\HttpClient\\UseWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

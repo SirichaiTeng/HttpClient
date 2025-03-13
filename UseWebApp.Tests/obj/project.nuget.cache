@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/y1WJLzUXLM=",
+  "dgSpecHash": "Uzqe6M2A2PI=",
   "success": true,
-  "projectFilePath": "D:\\HttpClient\\UseWebApp.Tests\\UseWebApp.Tests.csproj",
+  "projectFilePath": "C:\\Users\\MADORA\\Desktop\\http\\HttpClient\\UseWebApp.Tests\\UseWebApp.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MADORA\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\MADORA\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
